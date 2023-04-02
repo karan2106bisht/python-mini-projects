@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 
 # Set up OpenWeatherMap API endpoint and API key
 url = "https://api.openweathermap.org/data/2.5/forecast?"
-api_key = "b72af671ed2dda3965c6fb38d7a52768"
+api_key = "here we have to enter api key"
 
 # Get user input for city name and number of days to predict
 city_name = input("Enter city name: ")
