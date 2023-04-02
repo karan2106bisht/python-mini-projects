@@ -41,7 +41,7 @@ city_name = input("Enter city name: ")
 num_days = int(input("Enter number of days to predict: "))
 
 # Set up OpenWeatherMap API key
-api_key = "b72af671ed2dda3965c6fb38d7a52768"
+api_key = "here we have to add OpenWeatherMap API key"
 
 # Get weather data from API and extract relevant data
 data = get_weather_data(city_name, num_days, api_key)
