@@ -35,10 +35,6 @@ df.shape
 
 df.info()
 
-#from sklearn.model_selection import train_test_split
-#seprating the features and target
-#x=data_frame.drop(columns='label',axis=1)
-#y=data_frame['label']
 x=df.drop('diagnosis',axis=1)
 y=df['diagnosis']
 
